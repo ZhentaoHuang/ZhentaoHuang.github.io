@@ -1,0 +1,14 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: zhentaohuang222@gmail.com # your email address
+github_username: ZhentaoHuang # your GitHub username
+research_gate_profile: Zhentao_Huang # your ResearchGate profile slug (researchgate.net/profile/<slug>)
+rss_icon: true # comment this line to hide the RSS icon
+
+# TODO Zhentao: uncomment and fill these in if you have them:
+# scholar_userid: # your Google Scholar ID (the string after user= in your Scholar URL)
+# orcid_id: # your ORCID iD (e.g., 0000-0002-1825-0097)
+# linkedin_username: # your LinkedIn username
+# x_username: # your X/Twitter handle
+# cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF once you add one
