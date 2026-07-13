@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD student in computer vision · <a href='https://www.uoguelph.ca/'>University of Guelph</a>
 
