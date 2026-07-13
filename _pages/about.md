@@ -12,6 +12,10 @@ profile:
     <p>School of Computer Science</p>
     <p>University of Guelph</p>
     <p>Guelph, ON, Canada</p>
+    <div style="margin-top: 0.9rem;">
+    <p style="font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--global-text-color-light); margin-bottom: 0.3rem;">Visitors</p>
+    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=sz2lMXZLdLORCV5cdjdUWChq0ObF9PzD2cqhEpFVXIs"></script>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
