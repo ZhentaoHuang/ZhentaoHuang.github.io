@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # set true and edit _news/ to show a news feed
+  enabled: true # set true and edit _news/ to show a news feed
   scrollable: true
   limit: 5
 
