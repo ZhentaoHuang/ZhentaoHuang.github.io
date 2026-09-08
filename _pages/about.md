@@ -12,10 +12,7 @@ profile:
     <p>School of Computer Science</p>
     <p>University of Guelph</p>
     <p>Guelph, ON, Canada</p>
-    <div style="margin-top: 0.9rem;">
-    <p style="font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--global-text-color-light); margin-bottom: 0.3rem;">Visitors</p>
-    <a href="https://mapmyvisitors.com/" title="Where my visitors are from" target="_blank" rel="noopener"><img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=p3tjSN1HrpbQXMKtvQE6U_3fr13lO8wwO5ucLBtmf7U" alt="Map of visitors to this site" style="display:block; max-width:100%; height:auto; border-radius:8px;" loading="lazy" /></a>
-    </div>
+    <img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=p3tjSN1HrpbQXMKtvQE6U_3fr13lO8wwO5ucLBtmf7U" alt="" aria-hidden="true" width="1" height="1" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;" />
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
