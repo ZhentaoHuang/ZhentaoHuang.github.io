@@ -1,20 +1,32 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+<style>
+  /* The profile column is floated *before* the header so the photo top-aligns
+     with the name rather than starting level with the bio. Below 576px
+     .profile is width:100%, so the float would stack the photo above the
+     name -- restore name-first order there. */
+  @media (max-width: 575.98px) {
+    .post {
+      display: flex;
+      flex-direction: column;
+    }
 
-  <article>
+    .post > .post-header {
+      order: 1;
+    }
+
+    .post > .profile {
+      order: 2;
+    }
+
+    .post > article {
+      order: 3;
+    }
+  }
+</style>
+
+<div class="post">
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -38,6 +50,19 @@ layout: default
       </div>
     {% endif %}
 
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
