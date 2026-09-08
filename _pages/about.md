@@ -30,4 +30,4 @@ latest_posts:
 
 I'm Zhentao Huang, a PhD student in computer science at the [University of Guelph](https://www.uoguelph.ca/), advised by [Professor Minglun Gong](https://socs.uoguelph.ca/~minglun/). My research is in 3D reconstruction and neural rendering — how to represent, render, and edit 3D scenes efficiently — spanning Gaussian Splatting ([Textured-GS](https://github.com/ZhentaoHuang/Textured-GS)), editable neural radiance fields (SealD-NeRF), and multi-view stereo.
 
-Feel free to reach out through any of the links below.
+Feel free to reach out by email at [zhentao@uoguelph.ca](mailto:zhentao@uoguelph.ca), or through any of the links below.
