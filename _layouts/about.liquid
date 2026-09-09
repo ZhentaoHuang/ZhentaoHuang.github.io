@@ -2,6 +2,16 @@
 layout: default
 ---
 <style>
+  /* The theme sets `.more-info p` to inline-block and only ever restores
+     display:block for `.address p` -- a selector this profile never matches --
+     so on a narrow screen the address lines run together and overflow the
+     viewport. Give them their own rows at every width. The gem's rule compiles
+     to `.profile .more-info p`, so match that specificity -- this block comes
+     later in document order and therefore wins. */
+  .profile .more-info p {
+    display: block;
+  }
+
   /* The profile column is floated *before* the header so the photo top-aligns
      with the name rather than starting level with the bio. Below 576px
      .profile is width:100%, so the float would stack the photo above the
